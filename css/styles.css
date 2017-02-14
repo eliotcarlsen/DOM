@@ -1,0 +1,23 @@
+#catPic {
+
+
+}
+#dogPic {
+  float: right;
+
+}
+#bark{
+  border:2px solid black;
+  border-radius:300px;
+  padding: 40px;
+  display: none;
+
+
+}
+#meow{
+  border:2px solid black;
+  border-radius: 100px;
+  padding: 20px;
+  float:left;
+  display: none;
+}
