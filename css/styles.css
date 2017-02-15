@@ -21,3 +21,13 @@
   float:left;
   display: none;
 }
+.topPart{
+  text-align:center;
+}
+#ruffery{
+  display:none;
+  position:absolute;
+}
+#saveCat{
+
+}

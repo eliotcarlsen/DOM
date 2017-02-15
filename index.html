@@ -6,8 +6,8 @@
     <script  src="js/jquery-3.1.1.js"></script>
     <script src="js/scripts.js"></script>
     <title>Interact with the Animals</title>
-    <h1>Interact with the Animals</h1>
-    <p>
+    <h1 class="topPart">Interact with the Animals</h1>
+    <p class="topPart">
       Click the animals to see what they say!
     </p>
   </head>
@@ -19,6 +19,7 @@
         </div>
         <div class="col-lg-1">
           <h6 id="meow"> Meeeyooww!</h6>
+          <img id="ruffery" src="https://images10.newegg.com/ProductImage/A175_1_2014083117430716.jpg" alt="Ruffery">
         </div>
         <div class="col-lg-3">
           <h1 id="bark">I will eat your face!</h1>
@@ -27,7 +28,34 @@
           <img id="dogPic" src="data:image/jpeg;base64,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" alt="cute dog">
         </div>
       </div>
+      <div class="row">
+      <button id="saveCat">Click me to stop the fight!</button>
     </div>
+  </div>
+<!--Bottom half of page  -->
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-12">
+        <p>How to take care of your pets...</p>
+        <ul>
+          <li id="feed">Feed them.</li>
+          <li id="pet">Pet them.</li>
+          <li id="walk">Walk them.</li>
+          <li id="kick">Don't kick them.</li>
+        </ul>
+
+
+
+
+
+
+
+      </div>
+
+    </div>
+
+  </div>
+
 
 
   </body>
